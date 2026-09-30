@@ -17,7 +17,7 @@
   .lang-switch { margin-bottom: 20px; }
   .lang-switch button { background: #208AEF; color: #fff; border: none; padding: 8px 16px; border-radius: 8px; font-size: 14px; cursor: pointer; margin-right: 8px; }
   .lang-switch button.inactive { background: #e5e5e5; color: #333; }
-  #en { display: none; }
+  #ro { display: none; }
   footer { margin-top: 40px; color: #888; font-size: 13px; text-align: center; }
   strong { color: #111; }
 </style>
@@ -25,14 +25,14 @@
 <body>
 
 <div class="lang-switch">
-  <button id="btn-ro" onclick="showLang('ro')">Română</button>
-  <button id="btn-en" class="inactive" onclick="showLang('en')">English</button>
+  <button id="btn-en" onclick="showLang('en')">English</button>
+  <button id="btn-ro" class="inactive" onclick="showLang('ro')">Română</button>
 </div>
 
 <div id="ro">
 <div class="logo">FO</div>
 <h1>Politica de Confidențialitate</h1>
-<p class="subtitle">Aplicația <strong>Field Ops</strong> · Ultima actualizare: 12 septembrie 2026</p>
+<p class="subtitle">Aplicația <strong>Field Ops</strong> · Ultima actualizare: 30 septembrie 2026</p>
 
 <p>Această Politică de Confidențialitate explică ce date colectăm prin aplicația Field Ops
 ("Aplicația"), cum le folosim, unde sunt stocate și ce control ai asupra lor. Am scris-o
@@ -56,6 +56,7 @@ la adresa din secțiunea de Contact, la finalul acestui document.</p>
   <li><strong>Puncte de interes</strong> create de tine — nume, tip, coordonate GPS, descriere, fotografii atașate</li>
   <li><strong>Trasee și rute</strong> create sau înregistrate (inclusiv traseele GPS "Merge")</li>
   <li><strong>Măsurători</strong> de distanță și suprafață</li>
+  <li><strong>Desene libere</strong> create pe hartă</li>
   <li><strong>Profilul personal</strong> — nume, prenume, poreclă, grad, funcție, unitate, vârstă, fotografie de profil (toate opționale, completate de tine)</li>
   <li><strong>Preferințe de afișare</strong> — limbă, unități de măsură, straturi de hartă, tip de hartă preferat, culoarea/stilul grilei MGRS</li>
   <li><strong>Hărți offline</strong> descărcate de tine, pentru utilizare fără conexiune la internet</li>
@@ -96,7 +97,7 @@ secțiunea 5), doar un identificator anonim al dispozitivului și statutul abona
 alegi să te autentifici și să apeși "Backup acum", următoarele date sunt trimise și stocate
 pe serverele furnizorului nostru cloud, asociate exclusiv contului tău:</p>
 <ul>
-  <li>Puncte, trasee, măsurători, trasee Merge, profil</li>
+  <li>Puncte, trasee, măsurători, trasee Merge, desene, profil</li>
 </ul>
 <p>Aceste date sunt <strong>izolate strict per cont</strong> — nimeni altcineva, inclusiv alți
 utilizatori ai aplicației, nu poate accesa backup-ul tău. Poți șterge backup-ul din cloud
@@ -108,7 +109,7 @@ oricând, direct din aplicație (Setări → Backup Cloud → Șterge backup-ul)
 <tr><td>Funcționarea de bază a hărții și navigării</td><td>Locație GPS (doar local)</td></tr>
 <tr><td>Salvarea punctelor/traseelor tale</td><td>Puncte, trasee, măsurători (local)</td></tr>
 <tr><td>Backup, la cererea ta</td><td>Toate datele de mai sus + email de cont (cloud, opțional)</td></tr>
-<tr><td>Afișarea hărții</td><td>Coordonate trimise către furnizorul de hărți (Apple, și pe Android, Google/OpenStreetMap)</td></tr>
+<tr><td>Afișarea hărții</td><td>Coordonate trimise către furnizorul de hărți (Apple Maps, OpenStreetMap)</td></tr>
 <tr><td>Deblocarea funcțiilor Pro</td><td>Identificator anonim de dispozitiv + statut abonament (RevenueCat)</td></tr>
 <tr><td>Export rapoarte (PDF/GPX/KML)</td><td>Generat local, trimis doar unde alegi tu să-l trimiți</td></tr>
 </table>
@@ -116,7 +117,7 @@ oricând, direct din aplicație (Setări → Backup Cloud → Șterge backup-ul)
 <h2>5. Furnizori terți implicați</h2>
 <p>Field Ops folosește următoarele servicii externe, strict necesare funcționării:</p>
 <ul>
-  <li><strong>Apple Maps</strong> — hartă nativă implicită pe iOS. <strong>Google Maps</strong> — hartă implicită pe Android (opțional selectabilă, în funcție de platformă). Aceste servicii pot procesa coordonatele afișate, conform politicilor proprii de confidențialitate ale Apple, respectiv Google.</li>
+  <li><strong>Apple Maps</strong> — hartă nativă implicită. Acest serviciu poate procesa coordonatele afișate, conform politicii proprii de confidențialitate a Apple.</li>
   <li><strong>OpenStreetMap</strong> — pentru hărțile de tip OSM și descărcarea hărților offline.</li>
   <li><strong>Nominatim (OpenStreetMap)</strong> — pentru căutarea de locuri la descărcarea hărților offline.</li>
   <li><strong>Supabase</strong> — furnizorul nostru de infrastructură cloud pentru autentificare și backup (dacă alegi să folosești această funcție). Găzduiește baza de date securizată unde sunt stocate backup-urile.</li>
@@ -161,7 +162,7 @@ actualizare reprezintă acceptarea noii versiuni.</p>
 <div id="en">
 <div class="logo">FO</div>
 <h1>Privacy Policy</h1>
-<p class="subtitle">The <strong>Field Ops</strong> app · Last updated: September 12, 2026</p>
+<p class="subtitle">The <strong>Field Ops</strong> app · Last updated: September 30, 2026</p>
 
 <p>This Privacy Policy explains what data we collect through the Field Ops app
 ("the App"), how we use it, where it is stored, and what control you have over it. We wrote it
@@ -185,6 +186,7 @@ at the address in the Contact section at the end of this document.</p>
   <li><strong>Points of interest</strong> you create — name, type, GPS coordinates, description, attached photos</li>
   <li><strong>Routes and tracks</strong> created or recorded (including "Merge" GPS tracks)</li>
   <li><strong>Distance and area measurements</strong></li>
+  <li><strong>Freehand drawings</strong> created on the map</li>
   <li><strong>Personal profile</strong> — first/last name, nickname, rank, role, unit, age, profile photo (all optional, filled in by you)</li>
   <li><strong>Display preferences</strong> — language, measurement units, map layers, preferred map type, MGRS grid color/style</li>
   <li><strong>Offline maps</strong> you download, for use without an internet connection</li>
@@ -225,7 +227,7 @@ needed to unlock Pro features.</p>
 you choose to sign in and tap "Backup now", the following data is sent and stored on our
 cloud provider's servers, associated exclusively with your account:</p>
 <ul>
-  <li>Points, routes, measurements, Merge tracks, profile</li>
+  <li>Points, routes, measurements, Merge tracks, drawings, profile</li>
 </ul>
 <p>This data is <strong>strictly isolated per account</strong> — no one else, including other
 app users, can access your backup. You can delete your cloud backup at any time, directly
@@ -237,7 +239,7 @@ from the app (Settings → Cloud Backup → Delete backup).</p>
 <tr><td>Core map and navigation functionality</td><td>GPS location (on-device only)</td></tr>
 <tr><td>Saving your points/routes</td><td>Points, routes, measurements (local)</td></tr>
 <tr><td>Backup, at your request</td><td>All data above + account email (cloud, optional)</td></tr>
-<tr><td>Displaying the map</td><td>Coordinates sent to the map provider (Apple, and on Android, Google/OpenStreetMap)</td></tr>
+<tr><td>Displaying the map</td><td>Coordinates sent to the map provider (Apple Maps, OpenStreetMap)</td></tr>
 <tr><td>Unlocking Pro features</td><td>Anonymous device identifier + subscription status (RevenueCat)</td></tr>
 <tr><td>Exporting reports (PDF/GPX/KML)</td><td>Generated locally, sent only wherever you choose to send it</td></tr>
 </table>
@@ -245,7 +247,7 @@ from the app (Settings → Cloud Backup → Delete backup).</p>
 <h2>5. Third-party providers involved</h2>
 <p>Field Ops uses the following external services, strictly necessary for its functionality:</p>
 <ul>
-  <li><strong>Apple Maps</strong> — default native map on iOS. <strong>Google Maps</strong> — default map on Android (optionally selectable, depending on platform). These services may process the displayed coordinates, per Apple's and Google's own privacy policies.</li>
+  <li><strong>Apple Maps</strong> — default native map. This service may process the displayed coordinates, per Apple's own privacy policy.</li>
   <li><strong>OpenStreetMap</strong> — for OSM-type maps and offline map downloads.</li>
   <li><strong>Nominatim (OpenStreetMap)</strong> — for place search when downloading offline maps.</li>
   <li><strong>Supabase</strong> — our cloud infrastructure provider for authentication and backup (if you choose to use this feature). Hosts the secured database where backups are stored.</li>
@@ -298,4 +300,3 @@ function showLang(lang) {
 
 </body>
 </html>
-
