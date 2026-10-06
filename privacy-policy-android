@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Field Ops — Privacy Policy / Politica de Confidențialitate</title><style>
+:root{--bg:#fff;--fg:#1f2937;--muted:#6b7280;--accent:#2563eb;--card:#eff6ff}
+@media(prefers-color-scheme:dark){:root{--bg:#111827;--fg:#e5e7eb;--muted:#9ca3af;--accent:#60a5fa;--card:#1f2937}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+h1{margin:0 0 4px;font-size:1.7rem}h2{margin:32px 0 8px;font-size:1.15rem;border-bottom:2px solid var(--accent);padding-bottom:6px}
+h3{margin:18px 0 6px;font-size:1rem}.updated{color:var(--muted);font-size:.85rem;margin-bottom:16px}
+.hl{background:var(--card);border-left:4px solid var(--accent);padding:12px 14px;border-radius:8px}
+ul{padding-left:20px}li{margin:4px 0}a{color:var(--accent)}
+.lang{display:flex;gap:8px;margin-bottom:18px}.lang button{border:1px solid var(--accent);background:none;color:var(--accent);border-radius:20px;padding:6px 16px;cursor:pointer;font:inherit}
+.lang button.on{background:var(--accent);color:#fff}.footer{color:var(--muted);font-size:.85rem;margin-top:40px;white-space:pre-line}
+[data-l]{display:none}[data-l].show{display:block}
+</style></head><body><main>
+<div class="lang"><button id="b-ro">Română</button><button id="b-en">English</button></div>
+<section data-l="ro"><h1>Field Ops — Politica de Confidențialitate</h1>
+<div class="updated">Ultima actualizare: 6 octombrie 2026</div>
+<div class="hl">Field Ops e construită să funcționeze local, pe telefonul tău. Datele tale ies de pe telefon doar când alegi explicit (backup în cloud, export, partajare, abonamentul Pro). Pe Android, în versiunea gratuită, aplicația afișează reclame prin Google AdMob (vezi secțiunea 5); abonamentul Pro elimină reclamele. Nu vindem datele tale personale.</div>
+<h2>1. Cine suntem</h2>
+<p>Field Ops este dezvoltată de Gioroc Horatiu, denumit în continuare &quot;noi&quot; sau &quot;dezvoltatorul&quot;. Pentru orice întrebare legată de confidențialitate, ne poți contacta la adresa din secțiunea de Contact, la finalul acestui document.</p>
+<h2>2. Ce date colectăm</h2>
+<h3>Date stocate local, pe telefonul tău</h3>
+<ul><li>Puncte de interes — nume, tip, coordonate GPS, descriere, fotografii</li><li>Trasee și rute create sau înregistrate (inclusiv &quot;Merge&quot;)</li><li>Măsurători de distanță și suprafață</li><li>Desene libere create pe hartă</li><li>Profilul personal — nume, grad, funcție, unitate, poză (opționale)</li><li>Preferințe de afișare (inclusiv grila MGRS) și hărți offline descărcate</li></ul>
+<h3>Date de localizare (GPS)</h3>
+<p>Folosim locația dispozitivului pentru funcțiile centrale ale aplicației: hartă, navigare, calcul de distanțe, înregistrare de trasee. Locația ta exactă e folosită doar pe dispozitiv, decât dacă alegi explicit un backup în cloud.</p>
+<h3>Fotografii și cameră</h3>
+<p>Accesăm camera/galeria doar cu permisiunea ta explicită. Fotografiile rămân locale, decât dacă le incluzi într-un backup sau export făcut de tine.</p>
+<h3>Date de cont (Backup Cloud)</h3>
+<p>Dacă activezi backup-ul cloud: email și parolă (gestionate securizat de furnizorul nostru de infrastructură).</p>
+<h3>Date legate de abonamentul Pro</h3>
+<p>Dacă achiziționezi Field Ops Pro, plata este gestionată integral de Apple (App Store) sau Google (Google Play) — nu primim și nu stocăm niciodată datele tale de plată. Primim doar un identificator anonim de dispozitiv și statutul abonamentului (activ/expirat/anulat), prin furnizorul nostru RevenueCat.</p>
+<h3>Date pentru reclame (doar Android, versiunea gratuită)</h3>
+<p>Reclamele sunt afișate prin Google AdMob (Google Mobile Ads SDK). Google poate colecta și folosi identificatori ai dispozitivului (de exemplu ID-ul de publicitate Android), adresa IP, informații despre dispozitiv și aplicație și o locație aproximativă, pentru a afișa și măsura reclame și pentru a preveni abuzurile. Nu transmitem furnizorului de reclame punctele, rutele, fotografiile sau profilul tău salvate în aplicație.</p>
+<h3>Hărți OpenStreetMap și căutare de locuri</h3>
+<p>Când folosești harta OpenStreetMap (OSM), descarci hărți offline sau cauți un loc, dispozitivul tău trimite cereri direct către serverele OpenStreetMap (tile.openstreetmap.org) și Nominatim (nominatim.openstreetmap.org). Aceste servere primesc adresa ta IP, identificarea aplicației, zonele de hartă solicitate și, pentru căutare, textul căutat. Nu trimitem acolo punctele, rutele, fotografiile sau profilul tău. Politica de confidențialitate a OpenStreetMap Foundation: osmfoundation.org/wiki/Privacy_Policy.</p>
+<h2>3. Backup în Cloud (opțional)</h2>
+<p>Funcție opțională, dezactivată implicit. La apăsarea „Backup acum&quot;, trimitem punctele, traseele, măsurătorile, traseele Merge, desenele și profilul tău, asociate strict contului tău — izolate complet de alți utilizatori. Poți șterge backup-ul oricând, direct din aplicație.</p>
+<h2>4. Furnizori terți implicați</h2>
+<ul><li>Apple Maps — hartă nativă pe iOS</li><li>Google Maps — hartă nativă pe Android</li><li>OpenStreetMap — hărți OSM și descărcare offline</li><li>Nominatim — căutare de locuri pentru hărți offline</li><li>Supabase — infrastructură cloud pentru autentificare și backup</li><li>RevenueCat — gestionarea abonamentelor Pro, fără acces la datele tale de plată</li><li>Apple App Store / Google Play — procesarea plăților</li><li>Google AdMob — reclame, doar pe Android în versiunea gratuită</li></ul>
+<h2>5. Reclame și consimțământ</h2>
+<p>Reclamele apar doar pe Android, doar în versiunea gratuită, pe ecrane secundare (nu pe harta principală). Utilizatorii Pro nu văd reclame.</p>
+<p>În Spațiul Economic European și în Regatul Unit, înainte de afișarea reclamelor îți cerem consimțământul printr-un formular Google, conform legii. Poți refuza; atunci reclamele pot fi limitate sau nepersonalizate.</p>
+<p>Poți reseta sau șterge ID-ul de publicitate din setările Android (Setări → Google → Reclame, sau Confidențialitate → Reclame) și poți vedea cum folosește Google datele: policies.google.com/technologies/partner-sites.</p>
+<h2>6. Securitatea datelor</h2>
+<ul><li>Date locale stocate în spațiul privat al aplicației</li><li>Backup cloud protejat prin autentificare și reguli stricte de acces</li><li>Comunicare criptată (HTTPS/TLS)</li></ul>
+<h2>7. Controlul și drepturile tale</h2>
+<ul><li>Coș de gunoi — restaurare timp de 30 de zile, apoi ștergere automată</li><li>Ștergere backup din cloud, oricând</li><li>„Delete all data&quot; — șterge definitiv datele de pe telefon</li><li>Kill Switch — resetare completă, ireversibilă, cu confirmare explicită</li><li>Gestionarea abonamentului — poți anula reînnoirea automată oricând, din setările contului tău Apple/Google</li><li>Dacă te afli în UE/SEE sau Regatul Unit ai dreptul de acces, rectificare, ștergere, portabilitate și opoziție pentru datele pe care le stocăm (backup cloud); scrie-ne la adresa de contact</li></ul>
+<h2>8. Copii</h2>
+<p>Field Ops nu este destinată copiilor sub 13 ani și nu colectăm cu bună știință date de la copii sub această vârstă.</p>
+<h2>9. Modificări ale acestei politici</h2>
+<p>Putem actualiza această politică periodic. Orice modificare semnificativă va fi reflectată prin actualizarea datei de mai sus.</p>
+<h2>10. Contact</h2><p>Pentru orice întrebare legată de confidențialitate: <a href="mailto:horatiu.gioroc@gmail.com">horatiu.gioroc@gmail.com</a></p>
+<div class="footer">Field Ops — Safety Through Coordination
+© 2026 Gioroc Horatiu. Toate drepturile rezervate.</div></section>
+<section data-l="en"><h1>Field Ops — Privacy Policy</h1>
+<div class="updated">Last updated: October 6, 2026</div>
+<div class="hl">Field Ops is built to work locally, on your phone. Your data leaves your phone only when you explicitly choose (cloud backup, export, sharing, Pro subscription). On Android, in the free version, the app shows ads through Google AdMob (see section 5); the Pro subscription removes ads. We do not sell your personal data.</div>
+<h2>1. Who we are</h2>
+<p>Field Ops is developed by Gioroc Horatiu, referred to below as &quot;we&quot; or &quot;the developer&quot;. For any question related to privacy, you can contact us at the address in the Contact section, at the end of this document.</p>
+<h2>2. What data we collect</h2>
+<h3>Data stored locally, on your phone</h3>
+<ul><li>Points of interest — name, type, GPS coordinates, description, photos</li><li>Routes and tracks created or recorded (including &quot;Merge&quot;)</li><li>Distance and area measurements</li><li>Freehand drawings created on the map</li><li>Personal profile — name, rank, role, unit, photo (all optional)</li><li>Display preferences (including the MGRS grid) and downloaded offline maps</li></ul>
+<h3>Location data (GPS)</h3>
+<p>We use the device&#x27;s location for the app&#x27;s core features: map, navigation, distance calculations, track recording. Your precise location is used only on-device, unless you explicitly choose a cloud backup.</p>
+<h3>Photos and camera</h3>
+<p>We access the camera/gallery only with your explicit permission. Photos remain local unless you include them in a backup or export you initiate.</p>
+<h3>Account data (Cloud Backup)</h3>
+<p>If you enable cloud backup: email and password (securely managed by our infrastructure provider).</p>
+<h3>Data related to your Pro subscription</h3>
+<p>If you purchase Field Ops Pro, payment is handled entirely by Apple (App Store) or Google (Google Play) — we never receive or store your payment details. We only receive an anonymous device identifier and your subscription status (active/expired/cancelled), through our provider RevenueCat.</p>
+<h3>Advertising data (Android free version only)</h3>
+<p>Ads are shown through Google AdMob (Google Mobile Ads SDK). Google may collect and use device identifiers (for example the Android advertising ID), IP address, device and app information, and approximate location, to serve and measure ads and to prevent abuse. We do not send the points, routes, photos or profile you save in the app to the ad provider.</p>
+<h3>OpenStreetMap maps and place search</h3>
+<p>When you use the OpenStreetMap (OSM) map, download offline maps or search for a place, your device sends requests directly to the OpenStreetMap servers (tile.openstreetmap.org) and Nominatim (nominatim.openstreetmap.org). These servers receive your IP address, the app identification, the requested map areas and, for search, the text you typed. We do not send them your points, routes, photos or profile. The OpenStreetMap Foundation privacy policy: osmfoundation.org/wiki/Privacy_Policy.</p>
+<h2>3. Cloud Backup (optional)</h2>
+<p>Optional feature, disabled by default. When you press &quot;Backup now&quot;, we send your points, routes, measurements, Merge tracks, drawings, and profile, strictly tied to your account — fully isolated from other users. You can delete the backup at any time, directly from the app.</p>
+<h2>4. Third-party providers involved</h2>
+<ul><li>Apple Maps — native map on iOS</li><li>Google Maps — native map on Android</li><li>OpenStreetMap — OSM maps and offline download</li><li>Nominatim — place search for offline maps</li><li>Supabase — cloud infrastructure for authentication and backup</li><li>RevenueCat — Pro subscription management, without access to your payment details</li><li>Apple App Store / Google Play — payment processing</li><li>Google AdMob — ads, on Android in the free version only</li></ul>
+<h2>5. Ads and consent</h2>
+<p>Ads appear only on Android, only in the free version, on secondary screens (not on the main map). Pro users do not see ads.</p>
+<p>In the European Economic Area and the United Kingdom, before showing ads we ask for your consent through a Google form, as required by law. You may decline; ads may then be limited or non-personalized.</p>
+<p>You can reset or delete your advertising ID in Android settings (Settings → Google → Ads, or Privacy → Ads), and you can see how Google uses data at policies.google.com/technologies/partner-sites.</p>
+<h2>6. Data security</h2>
+<ul><li>Local data stored in the app&#x27;s private storage</li><li>Cloud backup protected by authentication and strict access rules</li><li>Encrypted communication (HTTPS/TLS)</li></ul>
+<h2>7. Your control and rights</h2>
+<ul><li>Trash — restore within 30 days, then automatic permanent deletion</li><li>Delete cloud backup, anytime</li><li>&quot;Delete all data&quot; — permanently deletes data on your phone</li><li>Kill Switch — complete, irreversible reset, with explicit confirmation</li><li>Subscription management — you can cancel automatic renewal anytime, from your Apple/Google account settings</li><li>If you are in the EU/EEA or the UK you have the right of access, rectification, erasure, portability and objection for the data we store (cloud backup); write to us at the contact address</li></ul>
+<h2>8. Children</h2>
+<p>Field Ops is not intended for children under 13 and we do not knowingly collect data from children under this age.</p>
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy periodically. Any significant change will be reflected by updating the date above.</p>
+<h2>10. Contact</h2><p>For any question related to privacy: <a href="mailto:horatiu.gioroc@gmail.com">horatiu.gioroc@gmail.com</a></p>
+<div class="footer">Field Ops — Safety Through Coordination
+© 2026 Gioroc Horatiu. All rights reserved.</div></section>
+</main>
+<script>
+(function(){function s(l){document.documentElement.lang=l;['ro','en'].forEach(function(x){
+document.querySelector('[data-l="'+x+'"]').classList.toggle('show',x===l);
+document.getElementById('b-'+x).classList.toggle('on',x===l)});}
+document.getElementById('b-ro').onclick=function(){s('ro')};document.getElementById('b-en').onclick=function(){s('en')};
+s((navigator.language||'en').toLowerCase().indexOf('ro')===0?'ro':'en');})();
+</script></body></html>
