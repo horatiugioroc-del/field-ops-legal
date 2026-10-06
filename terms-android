@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Field Ops — Terms of Use / Termeni și Condiții</title><style>
+:root{--bg:#fff;--fg:#1f2937;--muted:#6b7280;--accent:#2563eb;--card:#eff6ff}
+@media(prefers-color-scheme:dark){:root{--bg:#111827;--fg:#e5e7eb;--muted:#9ca3af;--accent:#60a5fa;--card:#1f2937}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+h1{margin:0 0 4px;font-size:1.7rem}h2{margin:32px 0 8px;font-size:1.15rem;border-bottom:2px solid var(--accent);padding-bottom:6px}
+h3{margin:18px 0 6px;font-size:1rem}.updated{color:var(--muted);font-size:.85rem;margin-bottom:16px}
+.hl{background:var(--card);border-left:4px solid var(--accent);padding:12px 14px;border-radius:8px}
+ul{padding-left:20px}li{margin:4px 0}a{color:var(--accent)}
+.lang{display:flex;gap:8px;margin-bottom:18px}.lang button{border:1px solid var(--accent);background:none;color:var(--accent);border-radius:20px;padding:6px 16px;cursor:pointer;font:inherit}
+.lang button.on{background:var(--accent);color:#fff}.footer{color:var(--muted);font-size:.85rem;margin-top:40px;white-space:pre-line}
+[data-l]{display:none}[data-l].show{display:block}
+</style></head><body><main>
+<div class="lang"><button id="b-ro">Română</button><button id="b-en">English</button></div>
+<section data-l="ro"><h1>Field Ops — Termeni și Condiții</h1>
+<div class="updated">Ultima actualizare: 6 octombrie 2026</div>
+<div class="hl">Field Ops este un instrument de ajutor la orientare și planificare. Nu este un dispozitiv certificat de siguranță sau de salvare a vieții. Nu te baza exclusiv pe aplicație în situații în care sănătatea sau viața ta depind de poziționare.</div>
+<h2>1. Acceptarea termenilor</h2>
+<p>Prin instalarea sau folosirea aplicației Field Ops („Aplicația&quot;) accepți acești termeni. Dacă nu ești de acord, nu folosi Aplicația. Aplicația este oferită de Gioroc Horatiu („noi&quot; sau „dezvoltatorul&quot;).</p>
+<h2>2. Licență de utilizare</h2>
+<p>Îți acordăm o licență personală, neexclusivă, netransferabilă și revocabilă de a folosi Aplicația pe dispozitivele tale, conform acestor termeni și regulilor magazinului de aplicații (Apple App Store sau Google Play). Nu ai voie să copiezi, să modifici, să decompilezi sau să redistribui Aplicația, în măsura în care legea nu permite altfel.</p>
+<h2>3. Siguranță și limitări de precizie</h2>
+<p>Precizia GPS, a busolei, a altitudinii, a hărților și a calculelor (distanță, suprafață, azimut, coordonate MGRS/UTM) depinde de dispozitiv, de semnal, de mediu și de sursele de date, și poate conține erori.</p>
+<p>Aplicația nu înlocuiește harta oficială, busola, echipamentul de siguranță, pregătirea sau judecata ta. Nu este certificată pentru navigație aeriană, maritimă sau pentru servicii de urgență. Ești singurul responsabil pentru deciziile pe care le iei folosind Aplicația și pentru siguranța ta și a celor din jurul tău.</p>
+<h2>4. Utilizare legală</h2>
+<p>Te angajezi să folosești Aplicația doar în scopuri legale și să respecți legislația aplicabilă (inclusiv legile privind accesul pe proprietăți private, zone interzise, protecția datelor și confidențialitatea altor persoane). Nu folosi Aplicația pentru a încălca drepturile altora sau pentru activități ilegale.</p>
+<h2>5. Abonamente și plăți (Field Ops Pro)</h2>
+<ul><li>Funcțiile Pro sunt disponibile prin abonament lunar, anual sau achiziție unică „pe viață&quot;, la prețurile afișate în Aplicație.</li><li>Plata se face prin Apple App Store sau Google Play, în contul tău. Noi nu primim datele tale de plată.</li><li>Abonamentele se reînnoiesc automat, în afara cazului în care le anulezi cu cel puțin 24 de ore înainte de sfârșitul perioadei curente. Poți gestiona sau anula abonamentul din setările contului tău Apple sau Google.</li><li>Rambursările sunt gestionate de Apple sau Google, conform politicilor lor. Drepturile tale legale de consumator rămân neatinse.</li><li>Ne rezervăm dreptul de a modifica prețurile viitoare; vei fi informat conform regulilor magazinului.</li></ul>
+<h2>6. Reclame (Android, versiunea gratuită)</h2>
+<p>Pe Android, versiunea gratuită afișează reclame prin Google AdMob. Reclamele sunt eliminate odată cu abonamentul Pro. Detalii despre datele folosite pentru reclame găsești în Politica de Confidențialitate.</p>
+<h2>7. Datele tale și backup-ul</h2>
+<p>Rămâi proprietarul datelor pe care le creezi (puncte, trasee, desene, fotografii, profil). Ne acorzi doar dreptul tehnic de a le stoca și procesa pentru funcțiile pe care le activezi (de exemplu backup-ul în cloud).</p>
+<p>Datele sunt stocate în principal local. Ești responsabil să păstrezi copii de siguranță. Funcțiile „Delete all data&quot; și „Kill Switch&quot; șterg definitiv datele și nu pot fi anulate.</p>
+<h2>8. Servicii și date de la terți</h2>
+<p>Aplicația folosește hărți și servicii ale unor terți (Apple Maps, Google Maps, OpenStreetMap, Nominatim și altele). Aplicația folosește date OpenStreetMap: © colaboratorii OpenStreetMap, disponibile sub licența Open Database License (ODbL) — openstreetmap.org/copyright. Folosirea acestor servicii este supusă și termenilor lor. Nu garantăm disponibilitatea sau corectitudinea lor, iar descărcarea hărților offline poate fi limitată sau modificată pentru a respecta regulile furnizorilor.</p>
+<h2>9. Proprietate intelectuală</h2>
+<p>Aplicația, designul, textele, simbolurile și codul ei aparțin dezvoltatorului sau licențiatorilor săi și sunt protejate de lege. Nu primești alte drepturi decât cele din licența de mai sus.</p>
+<h2>10. Excluderea garanțiilor</h2>
+<p>În măsura permisă de lege, Aplicația este oferită „ca atare&quot; și „după disponibilitate&quot;, fără garanții de niciun fel, exprese sau implicite, inclusiv privind funcționarea neîntreruptă, lipsa erorilor sau adecvarea pentru un anumit scop.</p>
+<h2>11. Limitarea răspunderii</h2>
+<p>În măsura permisă de lege, nu răspundem pentru daune indirecte, accidentale sau consecvente, nici pentru pierderi de date sau pentru vătămări, pagube ori pierderi rezultate din folosirea sau imposibilitatea de a folosi Aplicația sau din erori ale datelor de poziționare. Nimic din acești termeni nu exclude răspunderea care nu poate fi exclusă prin lege (de exemplu pentru culpă gravă sau intenție) și nu afectează drepturile imperative ale consumatorilor.</p>
+<h2>12. Încetare</h2>
+<p>Poți înceta folosirea Aplicației oricând, dezinstalând-o. Putem restricționa sau suspenda accesul la anumite funcții în caz de încălcare a acestor termeni sau de abuz.</p>
+<h2>13. Modificări</h2>
+<p>Putem actualiza acești termeni. Versiunea curentă este cea din Aplicație sau de pe pagina noastră, cu data ultimei actualizări de mai sus. Continuarea folosirii Aplicației după o modificare înseamnă acceptarea ei.</p>
+<h2>14. Legea aplicabilă</h2>
+<p>Acești termeni sunt guvernați de legea României, fără a afecta drepturile imperative de consumator din țara ta de reședință.</p>
+<h2>15. Contact</h2><p>Pentru întrebări legate de acești termeni: <a href="mailto:horatiu.gioroc@gmail.com">horatiu.gioroc@gmail.com</a></p>
+<div class="footer">Field Ops — Safety Through Coordination
+© 2026 Gioroc Horatiu. Toate drepturile rezervate.</div></section>
+<section data-l="en"><h1>Field Ops — Terms of Use</h1>
+<div class="updated">Last updated: October 6, 2026</div>
+<div class="hl">Field Ops is a navigation and planning aid. It is not a certified safety or life-saving device. Do not rely on the app alone in situations where your health or life depends on positioning.</div>
+<h2>1. Acceptance of terms</h2>
+<p>By installing or using the Field Ops app (the &quot;App&quot;) you accept these terms. If you do not agree, do not use the App. The App is provided by Gioroc Horatiu (&quot;we&quot; or &quot;the developer&quot;).</p>
+<h2>2. License</h2>
+<p>We grant you a personal, non-exclusive, non-transferable, revocable license to use the App on your devices, according to these terms and the rules of the app store (Apple App Store or Google Play). You may not copy, modify, decompile or redistribute the App, except where the law allows otherwise.</p>
+<h2>3. Safety and accuracy limits</h2>
+<p>The accuracy of GPS, compass, altitude, maps and calculations (distance, area, azimuth, MGRS/UTM coordinates) depends on the device, signal, environment and data sources, and may contain errors.</p>
+<p>The App does not replace official maps, a compass, safety equipment, training or your own judgment. It is not certified for aviation, maritime navigation or emergency services. You are solely responsible for the decisions you make using the App and for your safety and the safety of others.</p>
+<h2>4. Lawful use</h2>
+<p>You agree to use the App only for lawful purposes and to comply with applicable law (including laws on access to private property, restricted areas, data protection and the privacy of other people). Do not use the App to infringe the rights of others or for illegal activities.</p>
+<h2>5. Subscriptions and payments (Field Ops Pro)</h2>
+<ul><li>Pro features are available through a monthly or annual subscription or a one-time &quot;lifetime&quot; purchase, at the prices shown in the App.</li><li>Payment is made through the Apple App Store or Google Play, to your account. We do not receive your payment details.</li><li>Subscriptions renew automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel your subscription in your Apple or Google account settings.</li><li>Refunds are handled by Apple or Google under their policies. Your statutory consumer rights are not affected.</li><li>We may change future prices; you will be informed according to store rules.</li></ul>
+<h2>6. Ads (Android, free version)</h2>
+<p>On Android, the free version shows ads through Google AdMob. Ads are removed with the Pro subscription. Details about the data used for ads are in the Privacy Policy.</p>
+<h2>7. Your data and backup</h2>
+<p>You remain the owner of the data you create (points, routes, drawings, photos, profile). You give us only the technical right to store and process it for the features you enable (for example cloud backup).</p>
+<p>Data is stored mainly locally. You are responsible for keeping backups. The &quot;Delete all data&quot; and &quot;Kill Switch&quot; features permanently delete data and cannot be undone.</p>
+<h2>8. Third-party services and data</h2>
+<p>The App uses maps and services from third parties (Apple Maps, Google Maps, OpenStreetMap, Nominatim and others). The App uses OpenStreetMap data: © OpenStreetMap contributors, available under the Open Database License (ODbL) — openstreetmap.org/copyright. Use of these services is also subject to their terms. We do not guarantee their availability or correctness, and offline map downloads may be limited or changed to comply with providers&#x27; rules.</p>
+<h2>9. Intellectual property</h2>
+<p>The App, its design, texts, symbols and code belong to the developer or its licensors and are protected by law. You receive no rights other than the license above.</p>
+<h2>10. Disclaimer of warranties</h2>
+<p>To the extent permitted by law, the App is provided &quot;as is&quot; and &quot;as available&quot;, without warranties of any kind, express or implied, including uninterrupted operation, absence of errors or fitness for a particular purpose.</p>
+<h2>11. Limitation of liability</h2>
+<p>To the extent permitted by law, we are not liable for indirect, incidental or consequential damages, nor for data loss or for injury, damage or loss resulting from the use of or inability to use the App or from errors in positioning data. Nothing in these terms excludes liability that cannot be excluded by law (for example for gross negligence or intent) or affects mandatory consumer rights.</p>
+<h2>12. Termination</h2>
+<p>You may stop using the App at any time by uninstalling it. We may restrict or suspend access to certain features in case of breach of these terms or abuse.</p>
+<h2>13. Changes</h2>
+<p>We may update these terms. The current version is the one in the App or on our page, with the date of the last update above. Continued use of the App after a change means you accept it.</p>
+<h2>14. Governing law</h2>
+<p>These terms are governed by the law of Romania, without affecting mandatory consumer rights in your country of residence.</p>
+<h2>15. Contact</h2><p>For questions about these terms: <a href="mailto:horatiu.gioroc@gmail.com">horatiu.gioroc@gmail.com</a></p>
+<div class="footer">Field Ops — Safety Through Coordination
+© 2026 Gioroc Horatiu. All rights reserved.</div></section>
+</main>
+<script>
+(function(){function s(l){document.documentElement.lang=l;['ro','en'].forEach(function(x){
+document.querySelector('[data-l="'+x+'"]').classList.toggle('show',x===l);
+document.getElementById('b-'+x).classList.toggle('on',x===l)});}
+document.getElementById('b-ro').onclick=function(){s('ro')};document.getElementById('b-en').onclick=function(){s('en')};
+s((navigator.language||'en').toLowerCase().indexOf('ro')===0?'ro':'en');})();
+</script></body></html>
