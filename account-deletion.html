@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Field Ops — Account deletion / Ștergerea contului</title><style>
+:root{--bg:#fff;--fg:#1f2937;--muted:#6b7280;--accent:#2563eb;--card:#eff6ff}
+@media(prefers-color-scheme:dark){:root{--bg:#111827;--fg:#e5e7eb;--muted:#9ca3af;--accent:#60a5fa;--card:#1f2937}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+h1{margin:0 0 4px;font-size:1.7rem}h2{margin:32px 0 8px;font-size:1.15rem;border-bottom:2px solid var(--accent);padding-bottom:6px}
+h3{margin:18px 0 6px;font-size:1rem}.updated{color:var(--muted);font-size:.85rem;margin-bottom:16px}
+.hl{background:var(--card);border-left:4px solid var(--accent);padding:12px 14px;border-radius:8px}
+ul{padding-left:20px}li{margin:4px 0}a{color:var(--accent)}
+.lang{display:flex;gap:8px;margin-bottom:18px}.lang button{border:1px solid var(--accent);background:none;color:var(--accent);border-radius:20px;padding:6px 16px;cursor:pointer;font:inherit}
+.lang button.on{background:var(--accent);color:#fff}.footer{color:var(--muted);font-size:.85rem;margin-top:40px;white-space:pre-line}
+[data-l]{display:none}[data-l].show{display:block}
+</style></head><body><main>
+<div class="lang"><button id="b-ro">Română</button><button id="b-en">English</button></div>
+<section data-l="ro"><h1>Field Ops — Ștergerea contului</h1>
+<div class="updated">Ultima actualizare: 18 octombrie 2026</div>
+<h2>Din aplicație (recomandat)</h2>
+<ol><li>Deschide Field Ops → pictograma ⚙ (Setări) → <b>Backup Cloud</b>.</li><li>Apasă <b>Șterge contul</b> și confirmă.</li></ol>
+<p>Contul și backup-urile din cloud sunt șterse definitiv, imediat.</p>
+<h2>Prin e-mail</h2>
+<p>Dacă nu mai ai aplicația, scrie la <a href="mailto:horatiu.gioroc@gmail.com?subject=Field%20Ops%20-%20Stergere%20cont">horatiu.gioroc@gmail.com</a> cu subiectul „Field Ops – Ștergere cont”, de pe adresa cu care ai creat contul. Cererea se rezolvă în maximum 30 de zile.</p>
+<h2>Ce se șterge</h2>
+<ul><li>Contul (adresa de e-mail și parola)</li><li>Toate backup-urile din cloud: puncte, trasee, măsurători, desene, rapoarte, profil</li></ul>
+<h2>Ce rămâne</h2>
+<ul><li>Datele de pe telefonul tău: le ștergi din aplicație cu „Delete all data” sau dezinstalând aplicația</li><li>Achizițiile rămân gestionate de Apple / Google</li><li>O înregistrare anonimă care leagă un cod de acces de un dispozitiv poate fi păstrată pentru a preveni refolosirea codului; conține doar un identificator de dispozitiv, fără date personale</li></ul>
+<p><a href="privacy-policy.html">Politica de confidențialitate</a></p></section>
+<section data-l="en"><h1>Field Ops — Account deletion</h1>
+<div class="updated">Last updated: October 18, 2026</div>
+<h2>From the app (recommended)</h2>
+<ol><li>Open Field Ops → ⚙ icon (Settings) → <b>Cloud Backup</b>.</li><li>Tap <b>Delete account</b> and confirm.</li></ol>
+<p>The account and cloud backups are permanently deleted immediately.</p>
+<h2>By email</h2>
+<p>If you no longer have the app, write to <a href="mailto:horatiu.gioroc@gmail.com?subject=Field%20Ops%20-%20Account%20deletion">horatiu.gioroc@gmail.com</a> with the subject “Field Ops – Account deletion”, from the address used to create the account. Requests are handled within 30 days.</p>
+<h2>What is deleted</h2>
+<ul><li>The account (email address and password)</li><li>All cloud backups: points, routes, measurements, drawings, reports, profile</li></ul>
+<h2>What remains</h2>
+<ul><li>Data on your phone: delete it in the app with “Delete all data” or by uninstalling</li><li>Purchases remain managed by Apple / Google</li><li>An anonymous record binding an access code to a device may be kept to prevent reuse of the code; it contains only a device identifier, no personal data</li></ul>
+<p><a href="privacy-policy.html">Privacy Policy</a></p></section>
+</main>
+<script>
+(function(){function s(l){document.documentElement.lang=l;['ro','en'].forEach(function(x){
+document.querySelector('[data-l="'+x+'"]').classList.toggle('show',x===l);
+document.getElementById('b-'+x).classList.toggle('on',x===l)});}
+document.getElementById('b-ro').onclick=function(){s('ro')};document.getElementById('b-en').onclick=function(){s('en')};
+s((navigator.language||'en').toLowerCase().indexOf('ro')===0?'ro':'en');})();
+</script></body></html>
